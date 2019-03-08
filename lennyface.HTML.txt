@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<html>
-
-<body>
-<a href="www.google.com" style="background-color: red; padding :10px; border-radius:8px; padding-left:25px; padding-top: 12px; margin: 300px; width: 70px; box-shadow: 5px 5px pink; font-family: helvetica; font-weight: bold; color: white; ">BOTÃO</a>
-</body>
-
-</html>
