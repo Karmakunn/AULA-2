@@ -1,0 +1,100 @@
+Exercicio 1:
+
+//
+#include <iostream>
+
+using namespace std;
+
+int main()
+    {
+        string nome;
+        cout <<"Por favor, insira seu nome: \n";
+        cin>>nome;
+        cout<<"Hey, "<<nome<<"!";
+
+
+        return 0;
+    }
+//
+Exercicio 2:
+d) (X) 2
+
+Exercicio 3:
+//
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main ()
+{
+int cav, ferra;
+
+cout << "Por gentileza, insira quantos cavalos pretendes equipar: \n";
+cin >> cav;
+ferra = (cav * 4);
+cout<<"Voce vai precisar de "<<ferra<<" ferraduras!";
+
+return 0;
+
+}
+//
+Exercicio 4:
+8 = 0
+9 = 1
+10 = 8 
+11 = 27
+12 = 0
+13 = 1
+//
+Exercicio 5: 
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main ()
+{
+    float sala, con1, con2, jc1, jc2,conj1,conj2;
+    sala = sala + 1200.00;
+    con1 = con1+ 200.00;
+    con2 = con2+ 120.00;
+    jc1 = (con1 * 2) / 100;
+    jc2 = (con2 * 2) / 100;
+    conj1 = jc1+con1;
+    conj2 = jc2+con2;
+    cout << "Joao, voce precisa pagar as seguintes contas:\n\n"<<
+     "R$:"<< con1<< "\nR$:"<<con2<< "\n\nSomando os juros, respectivamente, totaliza:\n\n"<<
+     "R$:"<<conj1<<" - Juros ("<<jc1<<")"<< "\nR$:"<<conj2<<" - Juros ("<<jc2<<")\n\n"
+     <<"Este sera seu saldo apos os pagamentos:\n"<<"R$:"<<(sala-conj1)-conj2;
+
+    return 0;
+}
+
+Exercicio 6:
+//
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main ()
+{
+    float sand, queipres, hamb;
+    //queipres =  50;
+    //hamb =100;
+    cout << "Por favor, insira quantos sanduiches serao feitos:\n";
+    cin >> sand;
+    cout << "Para preparar "<< sand<<" hamburguer(es), vai precisar dos seguintes de ingredientes:\n\n"<<
+    "Queijo: "<<0.05 * sand<<" KG\n"<<"Presunto: "<< 0.05* sand<<" KG\n"<<"Hamburguer: "<<0.1*sand<<" KG\n";
+
+    return 0;
+}
+//
+Exercicio 7:
+// 
+
+
+
+
+
+
+//
+Exercicio 7:
+
