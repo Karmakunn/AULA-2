@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+    {
+    int CONT, CON1, CON2, CON3, CON4, CON5, CON6, CON7, CON8, CON9, SOMADIGITO1 ,DV1;
+
+    cout << "Digite os 9 primeiros digitos do seu CPF\n ";
+    cin >> CONT; ///CONT = NÚMERO DO CPF QUE O USUÁRIO INSERE;
+                            ///CONT/1/2/3... EQUIVALEM AO RESTO DA DIVISÃO;
+
+    if  (CONT > 999999999){cout<< "Numero incorreto: CPF maior que 9 digitos.\n";main();};
+
+    if (CONT <11111111) {cout << "Numero incorreto: CPF menor que 8 digitos.\n ";
+
+    ///CONDIÇÃO QUE GARANTE QUE A QUANTIDADE DE NUMEROS DIGITADOS ESTÁ ENTRE 8 E 9;
+
+    main();
+    };
+
+    CON1 = CONT % 10;
+    CON2 = (CONT/10)%10;
+    CON3 = (CONT/100)%10;
+    CON4 = (CONT/1000)%10;
+    CON5 = (CONT/10000)%10;
+    CON6 = (CONT/100000)%10;
+    CON7 = (CONT/1000000)%10;
+    CON8 = (CONT/10000000)%10;
+    CON9 = (CONT/100000000)%10;
+
+    ///MULTIPLICAÇÃO E SOMA PARA ENCONTRAR PARTE DO PRIMEIRO DIGITO;
+    SOMADIGITO1 = (CON1*2)+(CON2*3)+(CON3*4)+(CON4*5)+(CON5*6)+(CON6*7)+(CON7*8)+(CON8*9)+(CON9*10);
+
+    DV1 = SOMADIGITO1%11;
+    ///DV1 = DIGITO VERIFICADOR 1;
+
+    if (DV1 <2){ DV1 = 0;} else {DV1= 11 - DV1 ;}
+
+
+    cout <<DV1;
+
+ return 0;}
+
